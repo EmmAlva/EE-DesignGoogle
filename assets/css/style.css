@@ -142,5 +142,39 @@
 
   .column-lg-12 {
     width: 100%; } }
+* {
+  font-family: Roboto,sans-serif; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  width: 75%;
+  margin: 0 auto; }
+
+.center {
+  text-align: center; }
+
+li {
+  list-style: none; }
+  li a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 600;
+    margin: 0 20px; }
+
+section {
+  padding: 50px 0; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+img {
+  max-width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

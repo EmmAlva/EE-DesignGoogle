@@ -4,6 +4,7 @@
 //Gris Texto : #414549
 //Azul : #4285f4
 
+$link: #424242;
 
 //GRID SYSTEM
 
@@ -24,4 +25,45 @@ $breakpoints : (xs : 0, sm : 768px, md : 992px, lg : 1200px );
 }
 @each $name, $width in $breakpoints {
   @include column($name, $width);
+}
+
+//REUSABLE
+*{
+    font-family: Roboto,sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.center{
+    text-align: center;
+}
+li{
+    list-style: none;
+    a{
+    text-decoration: none;
+        color: $link;
+        font-weight: 600;
+        margin:0 20px;
+    }
+}
+
+section{
+    padding: 50px 0; 
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+
+img{
+    max-width: 100%;
+    
 }
